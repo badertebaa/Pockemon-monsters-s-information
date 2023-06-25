@@ -8,6 +8,7 @@ let deffence=document.getElementById("diffencePower")
 let speedpow=document.getElementById("speed")
 let namemonster=document.getElementById("nameofmonster")
 
+
 btn.addEventListener("click",()=>{
     
     getpockemon();
@@ -38,7 +39,7 @@ let generateCard=(data)=>{
    speedpow.innerHTML=speed;
    deffence.innerHTML=StateDeffence
 
-
+ console.log(data.types)
 
 }
 
