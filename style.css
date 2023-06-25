@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: azure;
+}
+.status{
+    padding-top: 5px;
+}
+.hp{
+    background-color: ghostwhite;
+    width: 12%;
+}
+.container{
+    width: 500px;
+    height:auto;
+    border:solid 1px black;
+    position: absolute;
+    top:9%;
+    left: 27%;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+#nameofmonster{
+    font-weight: bolder;
+    text-align: center;
+}
+.card{
+    background: orange;
+    width: 100%;
+    padding: 30px 20px;
+    display: block;
+ 
+}
+#img1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 30%;
+}
+.types{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.types span{
+  letter-spacing: 0.5px; 
+  font-weight: 600;
+}
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 18px;
+}
+#btn{
+    margin-top: 12px;
+    position: relative;
+    left:140px;
+    height: 50px;
+    width: 190px;
+    background-color: blue;
+    border-radius: 12px;
+    font-weight: 600;
+    color:aliceblue
+   
+}
